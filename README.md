@@ -137,6 +137,173 @@ El código de la aplicación fue desarrollado utilizando tecnologías modernas y
    ```bash
    npm run dev
 
+### Back-End
+
+#### Instrucciones para Iniciar el Backend de Spring Boot
+
+1. **Descargar y Descomprimir el Proyecto:**
+
+   - Descargar el archivo `TheBridgeAPIRest` desde el repositorio GitHub [The Bridge](https://github.com/fbmassi/The-Bridge).
+   - Descomprimirlo en la ubicación preferida del sistema.
+
+2. **Instalar JDK 17 de Oracle:**
+
+   - Descargar e instalar JDK 17 desde [Oracle JDK 17](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html).
+   - Seguir las instrucciones de instalación proporcionadas por Oracle según el sistema operativo.
+
+3. **Abrir el Proyecto en IntelliJ IDEA:**
+
+   - Abrir IntelliJ IDEA Community Edition.
+   - Seleccionar "Abrir Proyecto" y navegar hasta la carpeta `TheBridgeNeo4jApiREST` dentro de la carpeta descomprimida.
+
+4. **Configurar JDK en el Proyecto:**
+
+   - En la estructura de proyecto de IntelliJ, seleccionar JDK 17 como JDK del proyecto.
+
+5. **Cargar Dependencias Maven:**
+
+   - Abrir el archivo `pom.xml` ubicado en `TheBridgeNeo4jApiREST/pom.xml`.
+   - Verificar que todas las dependencias Maven estén cargadas correctamente.
+
+6. **Ejecutar la Aplicación Spring Boot:**
+
+   - Encontrar y abrir el archivo principal de la aplicación Spring Boot: `TheBridgeNeo4jApiREST/src/main/java/TheBridge/TheBridgeNeo4jApiREST/TheBridgeNeo4jApiRestApplication.java`.
+   - Ejecutar `TheBridgeNeo4jApiRestApplication` haciendo clic derecho en el archivo y seleccionando "Run".
+
+7. **Probar las Funcionalidades del Backend:**
+
+   - Utilizar herramientas como Postman o Insomnia para realizar peticiones HTTP al backend.
+   - Simular las interacciones que haría el frontend usando funciones `fetch`.
+
+##### Ejemplos de Uso
+
+###### Devolver un Perfil
+
+1. **Consulta:**
+
+   - Utilizar una herramienta como Postman o cualquier cliente HTTP para enviar una solicitud GET al endpoint: `http://localhost:8080/api/v1/profile/?username=<mail>`.
+   - Reemplazar `<mail>` con el correo electrónico deseado, por ejemplo, `dcarschmit@uade.edu.ar`.
+
+2. **Probar la Consulta:**
+
+   - Ejecutar la solicitud GET y esperar la respuesta del servidor.
+   - La API devolverá el perfil del usuario asociado al correo electrónico proporcionado en formato JSON.
+
+3. **Ejemplo de Respuesta:**
+
+   ```json
+   {
+       "name": "Carschmit, Donna Isabel",
+       "username": "dcarschmit@uade.edu.ar",
+       "legajo": "1156247",
+       "introduction": null,
+       "skills": {
+           "Creatividad": 0.33333334,
+           "Empatia": 0.33333334,
+           "PensamientoCritico": 0.33333334
+       },
+       "comments": [
+           {
+               "mensaje": "gran compañero de equipo",
+               "remitente": "sacarle@uade.edu.ar",
+               "destinatario": "dcarschmit@uade.edu.ar",
+               "timestamp": "2024-06-11T21:50:16.840179100"
+           }
+       ],
+       "projects": [
+           {
+               "identifier": "34db8a05-d78e-4407-b010-174165d90f48",
+               "titulo": "Bridge",
+               "descripcion": "Herramienta que permite a los estudiantes conectar entre si",
+               "links": [
+                   "https://github.com/fst037/The-Bridge",
+                   "https://www.figma.com/design/GqKfoL0bnjsRdFHjO6Wglj/Untitled?node-id=0-1&t=0GN5pPjHXiLmTH0F-0"
+               ],
+               "portadaBase64": "asd6f5a6s7dfa87sdf587saf67s5sd",
+               "equipo": {
+                   "identifier": "ab7f0732-6fd6-4917-9920-2e8cacaecc93",
+                   "nombre": "Equipo Bridge"
+               },
+               "curso": {
+                   "code": "473841",
+                   "name": "2024-1C - SIN AULA - TARDE - MIE - SEMINARIO DE INTEGRACION PROFESIONAL"
+               }
+           }
+       ]
+   }
+
+4. **Notas Adicionales:** Asegurarse de que el servidor esté en ejecución antes de realizar la consulta.
+
+##### Instrucciones para Obtener Todas las Materias
+
+1. **Consulta:**
+
+   - Utilizar una herramienta como Postman o cualquier cliente HTTP para enviar una solicitud GET al endpoint: `http://localhost:8080/api/v1/carreras-materias/todasLasMaterias`.
+
+2. **Probar la Consulta:**
+
+   - Ejecutar la solicitud GET y esperar la respuesta del servidor.
+   - La API devolverá un arreglo JSON con todas las materias disponibles, cada una representada por un objeto con campos como "name" (nombre de la materia) y "code" (código de la materia).
+
+3. **Ejemplo de Respuesta:**
+
+   ```json
+   [
+       {
+           "name": "Seminario de Integración Profesional",
+           "code": "3.4.211"
+       },
+       {
+           "name": "Probabilidad y Estadística",
+           "code": "3.1.053"
+       },
+       {
+           "name": "Ingeniería de Datos II",
+           "code": "3.4.209"
+       },
+       {
+           "name": "Teleinformática y Redes",
+           "code": "3.4.078"
+       },
+       {
+           "name": "Proceso de Desarrollo de Software",
+           "code": "3.4.208"
+       }
+   ]
+
+4. **Notas Adicionales:** Asegurarse de que el servidor esté en ejecución antes de realizar la consulta.
+
+##### Obtener Todos los Usuarios de un Curso
+
+1. **Consulta:**
+
+   - Utilizar una herramienta como Postman o cualquier cliente HTTP para enviar una solicitud GET al endpoint: `http://localhost:8080/api/v1/cursos/usuariosDeCurso?courseCode=<codigoDeCurso>`.
+   - Reemplazar `<codigoDeCurso>` con el código del curso deseado, por ejemplo, `473841`.
+
+2. **Probar la Consulta:**
+
+   - Ejecutar la solicitud GET y esperar la respuesta del servidor.
+   - La API devolverá un arreglo JSON con todos los usuarios del curso especificado.
+
+3. **Ejemplo de Respuesta:**
+
+   ```json
+   {
+       "name": "2024-1C - SIN AULA - TARDE - MIE - SEMINARIO DE INTEGRACION PROFESIONAL",
+       "code": "473841",
+       "users": [
+           {
+               "name": "Gil, Valentino",
+               "username": "vgil@uade.edu.ar",
+               "legajo": "1149275"
+           }
+           // ... más usuarios
+       ]
+   }
+
+4. **Notas Adicionales:** Asegurarse de que el servidor esté en ejecución antes de realizar la consulta.
+
+
 ## Repositorio
 El código fuente y la documentación adicional están disponibles en este repositorio.
 
