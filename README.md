@@ -15,6 +15,8 @@ Miércoles 17/7/2024
 Bridge es una solución diseñada para facilitar la formación de equipos de trabajo entre estudiantes universitarios, ayudándolos a conocerse mejor y a colaborar de manera más efectiva. El objetivo es mitigar las dificultades que los estudiantes enfrentan al tener que formar equipos con personas desconocidas y maximizar las oportunidades de networking y colaboración académica.
 
 ## Problema Identificado
+La dificultad para socializar con desconocidos, aunque inherente a la naturaleza humana social, está influenciada por factores psicológicos y evolutivos como la desconfianza inicial, la preferencia por lo familiar y el temor al rechazo. Evolutivamente, la desconfianza hacia extraños podría haber sido un mecanismo de defensa para minimizar riesgos y maximizar la supervivencia. La preferencia por lo familiar está relacionada con la zona de confort, donde la familiaridad reduce la ansiedad. El temor al rechazo se vincula con la necesidad de pertenencia y aceptación social, esenciales para la supervivencia ancestral. En entornos académicos, como las clases universitarias, estas dinámicas dificultan la formación de equipos efectivos, ya que la desconfianza y la preferencia por trabajar con personas conocidas pueden generar tensiones y afectar la colaboración y calidad del trabajo, aumentando el riesgo de fracaso académico.
+
 ### Causas
 1. **Falta de Conocimiento entre Estudiantes:** Los estudiantes a menudo no conocen a sus compañeros de clase, lo que dificulta la formación de equipos efectivos.
 2. **Diversidad de Habilidades:** Las habilidades blandas y técnicas varían ampliamente entre los estudiantes, y encontrar compañeros con habilidades complementarias puede ser desafiante.
@@ -43,7 +45,12 @@ El proyecto se enfoca en abordar el problema de la dificultad de los estudiantes
 #### User Personas
 Se identificaron diferentes tipos de usuarios para comprender mejor sus necesidades y dolores:
 - **User Persona 1:** Estudiante que le cuesta socializar y formar equipos.
+  
+![](Imagenes/'User Persona 1'.png)
+
 - **User Persona 2:** Estudiante con habilidades específicas que busca compañeros con habilidades complementarias.
+
+![](Imagenes/'User Persona 2'.png)
 
 #### Mapa de Empatía
 Se creó un mapa de empatía para cada User Persona, destacando sus pensamientos, sentimientos, y comportamientos relacionados con la formación de equipos.
