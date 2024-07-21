@@ -119,10 +119,6 @@ El código de la aplicación fue desarrollado utilizando tecnologías modernas y
 
 ### Front-End
 
-1. **Clonar el repositorio**
-
-# Instrucciones para Probar la Aplicación
-
 #### Comandos en la Consola
 
 1. Clonar el repositorio:
