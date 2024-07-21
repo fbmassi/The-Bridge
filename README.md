@@ -96,14 +96,14 @@ Se diseñó un diagrama de infraestructura que muestra cómo los diferentes comp
 El código de la aplicación fue desarrollado utilizando tecnologías modernas y siguiendo buenas prácticas de desarrollo. Se incluyen pruebas unitarias y de integración para garantizar la calidad del software.
 ![](Imagenes/EsquemaNeo4j.png)
 
-## Tecnologías Utilizadas
+### Tecnologías Utilizadas
 
-### Frontend
+#### Frontend
 - **React**: Elegido por su rendimiento, su capacidad para construir interfaces de usuario reutilizables y su vasta comunidad y ecosistema de herramientas.
 - **Vite**: Utilizado como herramienta de construcción por su rapidez y su optimización automática de las dependencias.
 - **Tailwind CSS**: Elegido por su facilidad para diseñar interfaces consistentes y estilizadas mediante clases utilitarias, lo que acelera el desarrollo y mantenimiento del estilo.
 
-### Backend
+#### Backend
 - **Spring Boot**: Seleccionado por su robustez, escalabilidad y la facilidad de configuración para desarrollar microservicios. Ofrece un marco completo para construir aplicaciones web y RESTful.
 - **Neo4j**: Elegido como base de datos debido a su enfoque en grafos, que permite una representación y consulta eficientes de relaciones complejas entre estudiantes y proyectos.
 - **Maven**: Utilizado para la gestión de dependencias y la construcción del proyecto, asegurando una fácil integración y despliegue.
@@ -117,13 +117,13 @@ El código de la aplicación fue desarrollado utilizando tecnologías modernas y
 - JDK 17 de Oracle
 - IntelliJ IDEA Community Edition
 
-### Frontend
+### Front-End
 
 1. **Clonar el repositorio**
 
 # Instrucciones para Probar la Aplicación
 
-## Comandos en la Consola
+#### Comandos en la Consola
 
 1. Clonar el repositorio:
    ```bash
