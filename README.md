@@ -1,6 +1,7 @@
 # The-Bridge MVP - Seminario de Interación Profesional - Ingeniería en Informática - UADE
+![](Imagenes/LogoBridge.png)
+![](Imagenes/LogoUADE.svg)
 
-![](Imagenes/Looo_UADE.png)
 
 ## Integrantes
 - Bejarano Martin
@@ -48,8 +49,11 @@ El proyecto se enfoca en abordar el problema de la dificultad de los estudiantes
 Se identificaron diferentes tipos de usuarios para comprender mejor sus necesidades y dolores:
 - **User Persona 1:** Estudiante que le cuesta socializar y formar equipos.
 ![](Imagenes/UserPersona1.png)
+![](Imagenes/UserJourneyMap1.png)
+
 - **User Persona 2:** Estudiante con habilidades específicas que busca compañeros con habilidades complementarias.
 ![](Imagenes/UserPersona2.png)
+![](Imagenes/UserJourneyMap2.png)
 
 #### Mapa de Empatía
 Se creó un mapa de empatía para cada User Persona, destacando sus pensamientos, sentimientos, y comportamientos relacionados con la formación de equipos.
@@ -77,8 +81,11 @@ Se elaboró un Business Model Canvas para describir la propuesta de valor, segme
 ### 7. Diseño de Solución
 #### Wireframes
 Se desarrollaron wireframes para visualizar la interfaz y experiencia de usuario de la aplicación.
-![](Imagenes/UserJourneyMap1.png)
-![](Imagenes/UserJourneyMap2.png)
+![](Imagenes/PantallaInicialBridge.png)
+![](Imagenes/PrimeraVezBridge.png)
+![](Imagenes/BridgeValoración.png)
+![](Imagenes/BridgePerfil.png)
+
 
 #### Diagrama de Infraestructura
 Se diseñó un diagrama de infraestructura que muestra cómo los diferentes componentes del sistema se integran y funcionan juntos.
@@ -96,3 +103,5 @@ El código fuente y la documentación adicional están disponibles en este repos
 Para más información, puedes contactarnos a través de los siguientes medios:
 - Email: contacto@bridge-sipi.com
 - Teléfono: +54 11 1234-5678
+
+![](Imagenes/LogoPrincipal.png)
