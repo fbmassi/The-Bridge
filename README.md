@@ -14,6 +14,26 @@ Miércoles 17/7/2024
 ## Descripción del Proyecto
 Bridge es una solución diseñada para facilitar la formación de equipos de trabajo entre estudiantes universitarios, ayudándolos a conocerse mejor y a colaborar de manera más efectiva. El objetivo es mitigar las dificultades que los estudiantes enfrentan al tener que formar equipos con personas desconocidas y maximizar las oportunidades de networking y colaboración académica.
 
+## Problema Identificado
+### Causas
+1. **Falta de Conocimiento entre Estudiantes:** Los estudiantes a menudo no conocen a sus compañeros de clase, lo que dificulta la formación de equipos efectivos.
+2. **Diversidad de Habilidades:** Las habilidades blandas y técnicas varían ampliamente entre los estudiantes, y encontrar compañeros con habilidades complementarias puede ser desafiante.
+3. **Tiempo Limitado:** El proceso de formar equipos puede ser lento y consumir tiempo valioso que podría dedicarse al estudio y preparación del proyecto.
+
+### Consecuencias
+1. **Equipos Ineficientes:** La falta de conocimiento y compatibilidad entre miembros del equipo puede llevar a una colaboración ineficaz y resultados subóptimos.
+2. **Estrés y Ansiedad:** La presión de formar equipos puede causar estrés y ansiedad en los estudiantes, afectando su rendimiento académico y bienestar general.
+3. **Deserción Escolar:** Las dificultades en la formación de equipos y la consecuente falta de apoyo pueden contribuir a la deserción escolar.
+
+## Fundamentos de la Elección de la Solución
+### Solución Propuesta
+La solución propuesta es una plataforma digital que utiliza un algoritmo para emparejar a los estudiantes en función de sus habilidades, intereses y perfiles psicológicos. La aplicación permite a los estudiantes crear perfiles detallados, realizar evaluaciones de habilidades blandas, y conectarse con otros estudiantes cuyas habilidades y objetivos complementen los suyos.
+
+### Justificación
+1. **Evaluación Personalizada:** La evaluación de habilidades blandas permite una comprensión profunda de las fortalezas y debilidades de cada estudiante.
+2. **Emparejamiento Inteligente:** El algoritmo de emparejamiento asegura que los equipos estén compuestos por miembros con habilidades complementarias, mejorando la eficiencia y eficacia de la colaboración.
+3. **Interacción Facilitada:** La plataforma proporciona herramientas para que los estudiantes se conozcan mejor antes de trabajar juntos, reduciendo la ansiedad y mejorando la cohesión del equipo.
+
 ## Arquitectura de Desarrollo
 
 ### 1. Introducción
