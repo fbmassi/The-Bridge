@@ -107,6 +107,7 @@ El código de la aplicación fue desarrollado utilizando tecnologías modernas y
 - **Spring Boot**: Seleccionado por su robustez, escalabilidad y la facilidad de configuración para desarrollar microservicios. Ofrece un marco completo para construir aplicaciones web y RESTful.
 - **Neo4j**: Elegido como base de datos debido a su enfoque en grafos, que permite una representación y consulta eficientes de relaciones complejas entre estudiantes y proyectos.
 - **Maven**: Utilizado para la gestión de dependencias y la construcción del proyecto, asegurando una fácil integración y despliegue.
+- **Stanford NLP:** Stanford NLP es un conjunto de herramientas de procesamiento de lenguaje natural desarrollado por la Universidad de Stanford que ofrece modelos avanzados para tareas como el análisis de sentimientos, el reconocimiento de entidades y la descomposición gramatical. Proporciona potentes herramientas para el procesamiento del lenguaje natural, incluyendo análisis de sentimientos. Al integrar Stanford NLP para filtrar comentarios negativos, podemos aprovechar su robusto modelo de análisis de sentimientos para identificar de manera precisa y eficiente el tono negativo en los comentarios. Esto permite mantener un entorno en línea positivo y seguro, mejorando la experiencia del usuario y fomentando interacciones constructivas.
 
 ## Instrucciones para Probar la Aplicación
 
