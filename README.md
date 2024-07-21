@@ -63,11 +63,11 @@ Se creó un mapa de empatía para cada User Persona, destacando sus pensamientos
 ### 3. Ideación y Brainstorming
 Se realizaron sesiones de brainstorming para generar ideas sobre las características que debe tener la solución. Estas ideas se priorizaron en una grilla de priorización, seleccionando las más relevantes y factibles para el desarrollo del MVP.
 ![](Imagenes/Brainstorming.png)
-![](Imagenes/IdeasElegidas.png)
 ![](Imagenes/GrillaDePriorización.png)
 
 ### 4. Solución Propuesta
 La solución se concretó en una aplicación que permite a los estudiantes cargar su información personal y académica, interactuar con perfiles de otros estudiantes a través de valoraciones y comentarios, y utilizar herramientas para la formación automática de equipos.
+![](Imagenes/IdeasElegidas.png)
 
 ### 5. Definición del MVP
 Se definió el MVP (Producto Mínimo Viable) a través del mapeo de historias de usuario, asegurando que las funcionalidades básicas estuvieran alineadas con las necesidades y problemas identificados.
