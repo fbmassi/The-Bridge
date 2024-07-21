@@ -1,5 +1,4 @@
 # The-Bridge MVP - Seminario de Interación Profesional - Ingeniería en Informática - UADE
-![](Imagenes/LogoBridge.png)
 ![](Imagenes/LogoUADE.svg)
 
 
@@ -15,6 +14,7 @@
 Miércoles 17/7/2024
 
 ## Descripción del Proyecto
+![](Imagenes/LogoBridge.png)
 Bridge es una solución diseñada para facilitar la formación de equipos de trabajo entre estudiantes universitarios, ayudándolos a conocerse mejor y a colaborar de manera más efectiva. El objetivo es mitigar las dificultades que los estudiantes enfrentan al tener que formar equipos con personas desconocidas y maximizar las oportunidades de networking y colaboración académica.
 
 ## Problema Identificado
