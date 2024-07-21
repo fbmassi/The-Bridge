@@ -46,11 +46,11 @@ El proyecto se enfoca en abordar el problema de la dificultad de los estudiantes
 Se identificaron diferentes tipos de usuarios para comprender mejor sus necesidades y dolores:
 - **User Persona 1:** Estudiante que le cuesta socializar y formar equipos.
   
-![](Imagenes/User_Persona_1.png)
+![](Imagenes/UserPersona1.png)
 
 - **User Persona 2:** Estudiante con habilidades específicas que busca compañeros con habilidades complementarias.
 
-![](Imagenes/'User Persona 2'.png)
+![](Imagenes/UserPersona2.png)
 
 #### Mapa de Empatía
 Se creó un mapa de empatía para cada User Persona, destacando sus pensamientos, sentimientos, y comportamientos relacionados con la formación de equipos.
