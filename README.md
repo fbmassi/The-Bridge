@@ -1,4 +1,4 @@
-# The-Bridge MVP - Seminario de Integración Profesional - Ingeniería en Informática - UADE
+# Bridge MVP - Seminario de Integración Profesional - Ingeniería en Informática - UADE
 ![](Imagenes/LogoUADE.svg)
 
 
